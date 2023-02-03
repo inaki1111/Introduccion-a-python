@@ -1,12 +1,15 @@
 # preguntale al usuario 5 numeros y luego imprime la suma de todos los numeros
-
+#las listas son dinamicas en python
 
 
 lista = []
 
 numero = int(input("Ingresa un numero: "))
-lista.append(numero)
 
+#.append es añadir el valor numero al final de la lista
+
+lista.append(numero)
+lista.remove(numero)
 
 numero = int(input("Ingresa un numero: "))
 lista.append(numero)

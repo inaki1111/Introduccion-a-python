@@ -30,3 +30,16 @@ IMC = masa/altura**2
 
 print("Tu IMC es: ", IMC)
 
+# creamos una condición para saber si el usuario está en su peso ideal
+
+if IMC >= 18.5 and IMC < 24.9:
+    print("Tu IMC es ", IMC, "Peso Normal")
+
+elif IMC <= 24.9 and IMC < 29.9:
+    print("Tu IMC es ", IMC, "Sobre peso")
+
+elif IMC >= 29.9: 
+    print("Tu IMC es ", IMC, "Obesidad")
+
+else: 
+    print("Tu IMC es ", IMC, "Por debajo del peso")
