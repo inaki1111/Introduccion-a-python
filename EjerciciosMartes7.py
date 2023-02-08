@@ -10,6 +10,15 @@ menor que 1000, de lo contrario, devuelve su suma."""
 
 #Implementa to código aqui:
 
+def ejercicio1():
+    numero1 = int(input("Ingresa el primer numero: "))
+    numero2 = int(input("Ingresa el segundo numero: "))
+    multiplicacion = numero1 * numero2
+    if multiplicacion <= 1000:
+        print(numero1 * numero2)
+
+    else:
+        print(numero1 + numero2)    
 
 
 #----------------------------------------------------------------------------------
@@ -37,6 +46,14 @@ Current Number 9 Previous Number  8  Sum:  17
 
 #Escribe tu código aqui:
 
+def ejercicio2():
+    for i in range(10):
+        if i == 0:
+            print("Current Number", i, "Previous Number ", i, " Sum: ", i)
+        else:
+            print("Current Number", i, "Previous Number ", i-1, " Sum: ", i + i-1)
+    
+    
 #------------------------------------------------------------------
 
 
@@ -49,6 +66,12 @@ lista2 = [2,3,4,6,7,8,2]
 
 #Implementa tu código aqui
 
+def ejercicio3(lista):
+
+    if lista[0] == lista[-1]:
+        print("True")
+    else:
+        print("False")
 
 #------------------------------------------------------------------
 
@@ -60,3 +83,16 @@ Mostrar números divisibles por 5 de una lista
 lista = [10, 20, 33, 46, 55]
 
 #Implementa tu código aqui
+
+def ejercicio4(lista):
+    
+    for i in lista:
+        if i % 5 == 0:
+            print(i)
+
+
+#------------------------------------------------------------------
+
+#Validación de los ejercicios
+
+ejercicio1()
