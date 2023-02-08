@@ -1,4 +1,4 @@
-#Ejercicios de python Lunes 6 de febrero
+#Ejercicios de python Martes 7 de febrero
 
 
 
