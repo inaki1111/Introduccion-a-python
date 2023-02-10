@@ -1,1 +1,1 @@
-print(promedio1)
+sumarDosNumeros
