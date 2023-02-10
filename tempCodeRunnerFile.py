@@ -1,1 +1,1 @@
-suma
+print(promedio1)
