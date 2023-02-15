@@ -1,1 +1,1 @@
-sumarDosNumeros
+get
