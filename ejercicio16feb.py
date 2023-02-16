@@ -1,5 +1,8 @@
 #Crear un programa en tkinter donde se muestre la información de un archivo de texto Que se encuentra en la carpeta del programa
 #El archivo de texto debe tener el siguiente formato:
+
+#Preguntar el nombre del archivo de texto, que es el nombre de la persona.
+
 #Nombre: Juan Perez
 #Edad: 25
 #Carrera: Ingeniería en Sistemas
